@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "hello-property-pane-client-side-solution",
+    "id": "3144cc36-1755-4b5e-8d88-536e6845a7b4",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "HelloPropertyPane description"
+      },
+      "longDescription": {
+        "default": "HelloPropertyPane description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "hello-property-pane Feature",
+        "description": "The feature that activates elements of the hello-property-pane solution.",
+        "id": "c35ebd9b-e83a-4263-8dd8-673ae692d9b1",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/hello-property-pane.sppkg"
+  }
+}
